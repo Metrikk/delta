@@ -1,0 +1,507 @@
+.button.full {
+    background: #499dff;
+    color: #fff;
+}
+.button.large {
+    padding: 20px 36px;
+    font-size: 17px;
+}
+.button {
+    border-radius: 4px;
+    font-size: 14px;
+    border: 1px solid white !important;
+    line-height: 1;
+    padding: 10px 18px;
+    margin-right: 5px;
+    display: initial;
+    position: relative;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+}
+
+body {
+    font-family: "Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+a {
+    color: #4A4B69;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.navbar-brand:hover {
+    color:#499dff;
+}
+
+.navbar {
+    width: 100%;
+    display:block;
+    position: fixed;
+    background: #4A4B69;
+    border: none;
+    border-radius: 0;
+    min-height: 70px;
+    /* margin-bottom: 0; */
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+.navbar.sticky {
+    height: 60px;
+    font-size: 15px;
+    min-height: 60px;
+}
+
+.navbar.sticky .navbar-nav {
+    padding-top: 20px;
+}
+
+.navbar.sticky .navbar-header {
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    padding-top: 25px;
+}
+
+.navbar-nav li {
+    float: left;
+    position: relative;
+    display: block;
+    line-height: 1.5;
+}
+.navbar a {
+    border:none;
+    padding: 10px 15px;
+}
+
+.navbar .navbar-nav li a {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.63);
+    background: 0 0 !important;
+}
+
+.navbar-left {
+    float: left!important;
+    margin: 0;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+.navbar-right {
+    float: right!important;
+}
+
+.container {
+    width: 1170px;
+}
+
+.navbar-header {
+    float: left;
+    padding-top: 25px;
+    color:white;
+    font-weight:600;
+}
+
+.navbar .container {
+    width: 1170px;
+    height: auto;
+    margin: auto;
+}
+
+#content section.row h2 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    color:black;
+    font-weight: bold;
+    margin-bottom: 0.05em;
+}
+
+section {
+    min-height:150px;
+}
+.image_1 {
+    width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.image_2 {
+    width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+
+section.content-area {
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+#content
+{
+    /*padding-right: 15px;*/
+    /*padding-left: 15px;*/
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 4.4em;
+    /*width: 1170px;*/
+}
+
+#logo-container #logo a {
+    border:none;
+    font-weight: 600;
+    font-size: 42px;
+    margin: 0 auto 20px;
+    color: black;
+    line-height: 1.2;
+}
+
+#logo-container #subtitle {
+    border:none;
+    font-weight: 200;
+    font-size: 24px;
+    margin: 0 auto 20px;
+    color: black;
+    line-height: 1.2;
+}
+
+.grey{
+    background-color:whitesmoke;
+}
+
+.section-container {
+    width:1170px;
+    height:auto;
+    margin: 0 auto;
+}
+
+h2 {
+    color:black;
+}
+
+.line-divider {
+    width: 100%;
+    height: 10px;
+    padding-right: 2em;
+    display: block;
+    padding-left: 0em;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 75%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 2px solid rgba(170, 170, 170, 0.07);
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* code */
+
+code {
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+pre {
+    display: block;
+    padding: 9.5px;
+    font-size: 13px;
+    line-height: 1.428571429;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333;
+    border-radius: 0;
+    background-color: transparent;
+    border: none;
+    margin: 0 0 20px;
+}
+pre code {
+    font-size: 11px;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    background: 0 0;
+    -webkit-text-size-adjust: none;
+}
+.hljs-attribute {
+    color: #3476B9;
+    font-weight: normal;
+}
+.hljs-literal {
+    color: #897FFF;
+    font-weight: normal;
+}
+.hljs-string {
+    color: #E2543E;
+    font-weight: normal;
+}
+
+/*login and register*/
+.login-form input[type="text"], input[type="password"]  {
+    background: 0 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
+    line-height: 1.42857143;
+    height: 34px;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(117,123,140,.5);
+    color: #1f2432;
+}
+
+.login-form input:focus {
+    border-color: #499dff;
+    color: #499dff;
+    outline: 0!important;
+}
+
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 200px;
+    min-height: 200px;
+}
+
+.login-form form {
+    margin-top: 2em;
+}
+
+.login-form .register {
+    margin-top: 1em;
+}
+
+.beta {
+    position: absolute;
+    top: 101px;
+    right: -58px;
+    width: 260px;
+    font-weight: 100;
+    height: 50px;
+    background-color: #4A4B69;
+    color: #fff;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    text-align: center;
+    /* box-shadow: 2px 2px 5px #000000; */
+    z-index: 0;
+    border-bottom: none;
+}
+
+.beta h3 {
+    font-size: 16px !important;
+    font-weight: 200;
+    margin: 0 auto;
+    padding-top: 13px;
+}
+
+.monitor, .activity {
+    background-color: whitesmoke;
+    min-height: 25px;
+    width: 99%;
+    padding: 0.5em;
+}
+
+.activity .activity-comment {
+    clear: both;
+    font-size: 14px;
+}
+
+.activity .activity-time {
+    float: right;
+    font-size: 11px;
+    padding: 0.7em;
+}
+
+.activity .activity-title {
+    clear: both;
+    float: left;
+    height: auto;
+    margin: 0 auto;
+    padding: 0.7em;
+    color: green;
+}
+
+.activity .error {
+    color:red;
+}
+
+.api-key-regenerate {
+    cursor:pointer;
+}
+
+.monitor .monitor-url {
+    margin: 0 auto;
+    clear: both;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.monitor .monitor-percentage {
+    float: right;
+    font-size: 11px;
+    padding: 0.7em;
+}
+
+.monitor .monitor-title {
+    margin: 0 auto;
+    clear: both;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+.monitor .monitor-status {
+    float: left;
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    color: green;
+}
+
+.monitor .error {
+    color:red;
+}
+
+.small-icon{
+    font-size: 0.9em;
+    color: #499DFF;
+}
+
+.footer-links-container li {
+    text-decoration: none;
+    list-style-type:none;
+    font-size 11px;
+}
+
+/* popup window default */
+
+#popup-window {
+    display:none;
+}
+
+#popup-window .b-close {
+    float: right;
+}
+
+#popup-window .popup-content {
+    padding: 2em;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#popup-window h2 {
+    font-size: 18px;
+    padding: 1em;
+}
+
+#popup-window input {
+    line-height: normal;
+    width: auto;
+    padding: 0.5em;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+#popup-window form .button {
+    width: 100%;
+    margin-top: 0.5em;
+    display: block;
+}
+
+/* pricing tiers */
+
+
+div>.pricing {
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #ddd;
+    background: #fff;
+    width: 250px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.pricing .header {
+    background: #4A4B69;
+    padding: 30px 0;
+}
+
+.pricing h1 {
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.pricing p {
+    background-color:#499dff;
+    text-shadow: 0 1px 0 #79b385;
+    margin: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 700;
+}
+
+.pricing sup {
+    vertical-align: text-top;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0 1px;
+}
+
+.pricing em {
+    text-decoration: underline;
+    font-style: normal;
+}
+
+.pricing span {
+    /*text-shadow: 0 1px 0 white;*/
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0 1px;
+}
+
+.pricing ul {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.pricing li {
+    list-style: none;
+    text-align: left;
+    padding: 5px 0;
+    font-size: 16px;
+    color: #999;
+}
+
+.pricing strong {
+    color: #000;
+}
